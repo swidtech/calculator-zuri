@@ -69,3 +69,7 @@ button[onclick="calculate()"] {
     background-color: #F99736;
     box-shadow: 0px 15px 0px #DA8541;
 }
+
+.link a {
+    color: white;
+}
