@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="calculator">
+            <input type="text" id="output" readonly placeholder="0">
+            <table>
+                <tr>
+                    <td><button onclick="appendToOutput('7')">7</button></td>
+                    <td><button onclick="appendToOutput('8')">8</button></td>
+                    <td><button onclick="appendToOutput('9')">9</button></td>
+                    <td><button onclick="appendToOutput('÷')">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendToOutput('4')">4</button></td>
+                    <td><button onclick="appendToOutput('5')">5</button></td>
+                    <td><button onclick="appendToOutput('6')">6</button></td>
+                    <td><button onclick="appendToOutput('x')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendToOutput('1')">1</button></td>
+                    <td><button onclick="appendToOutput('2')">2</button></td>
+                    <td><button onclick="appendToOutput('3')">3</button></td>
+                    <td><button onclick="appendToOutput('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="appendToOutput('0')">0</button></td>
+                    <td><button onclick="appendToOutput('.')">.</button></td>
+                    <td><button onclick="appendToOutput('+')">+</button></td>
+                    <td><button onclick="calculate()">=</button></td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
