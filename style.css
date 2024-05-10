@@ -77,4 +77,5 @@ button[onclick="calculate()"] {
 
 .link a {
     color: goldenrod;
+    text-decoration: none;
 }
